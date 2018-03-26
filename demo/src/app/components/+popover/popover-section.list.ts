@@ -9,7 +9,7 @@ import { DemoPopoverConfigComponent } from './demos/config/config';
 import { DemoPopoverOutsideClickComponent } from './demos/outside-click/outside-click';
 import { DemoPopoverTriggersCustomComponent } from './demos/triggers-custom/triggers-custom';
 import { DemoPopoverTriggersManualComponent } from './demos/triggers-manual/triggers-manual';
-import { DemoPopoverTriggerByInput } from './demos/trigger-by-input/trigger-by-input';
+import { DemoPopoverByIsOpenPropComponent } from './demos/trigger-by-isopen-property/trigger-by-isopen-property';
 import { DemoPopoverStylingLocalComponent } from './demos/styling-local/styling-local';
 import { DemoPopoverClassComponent } from './demos/class/class';
 import { DemoPopoverContextComponent } from './demos/popover-context/popover-context';
@@ -138,11 +138,11 @@ export const demoComponentContent: ContentSection[] = [
         outlet: DemoPopoverTriggersManualComponent
       },
       {
-        title: 'Trigger by input',
-        anchor: 'trigger-by-input',
-        component: require('!!raw-loader?lang=typescript!./demos/trigger-by-input/trigger-by-input.ts'),
-        html: require('!!raw-loader?lang=markup!./demos/trigger-by-input/trigger-by-input.html'),
-        outlet: DemoPopoverTriggerByInput
+        title: 'Trigger by isOpen property',
+        anchor: 'trigger-by-isopen-property',
+        component: require('!!raw-loader?lang=typescript!./demos/trigger-by-isopen-property/trigger-by-isopen-property.ts'),
+        html: require('!!raw-loader?lang=markup!./demos/trigger-by-isopen-property/trigger-by-isopen-property.html'),
+        outlet: DemoPopoverByIsOpenPropComponent
       },
       {
         title: 'Component level styling',
