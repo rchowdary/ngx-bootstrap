@@ -260,7 +260,8 @@ export class BsDropdownDirective implements OnInit, OnDestroy {
 
   /**
    * Toggles an element’s popover. This is considered a “manual” triggering of
-   * the popover.
+   * the popover. With parameter true allow toggling, with parameter false
+   * only hide opened dropdown. Parameter usage will be removed in 3rd ngx bootstrap release
    */
   toggle(value?: boolean): void {
     if (this.isOpen || !value) {

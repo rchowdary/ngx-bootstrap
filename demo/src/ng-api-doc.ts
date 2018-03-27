@@ -1802,7 +1802,7 @@ export const ngdoc: any = {
       },
       {
         "name": "toggle",
-        "description": "<p>Toggles an element’s popover. This is considered a “manual” triggering of\nthe popover.</p>\n",
+        "description": "<p>Toggles an element’s popover. This is considered a “manual” triggering of\nthe popover. With parameter true allow toggling, with parameter false\nonly hide opened dropdown. Parameter usage will be removed in 3rd ngx bootstrap release</p>\n",
         "args": [
           {
             "name": "value",
